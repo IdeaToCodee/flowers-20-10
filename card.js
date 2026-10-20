@@ -1,11 +1,12 @@
 (() => {
   'use strict';
 
-  const STORAGE_KEY = 'flower.greeting.20-10.v1';
+  const STORAGE_KEY = 'flower.greeting.20-10.v2';
+
   const defaultGreeting = {
-    recipient: 'bạn',
-    message: 'Nhân ngày Phụ nữ Việt Nam 20/10, chúc bạn luôn khỏe mạnh, bình an và có thật nhiều niềm vui.\n\nMong bạn được yêu thương từ những điều nhỏ nhất, có thời gian cho bản thân và tự tin theo đuổi những điều mình mong muốn.\n\nHôm nay và cả những ngày sau, hãy luôn mỉm cười theo cách của riêng bạn nhé.',
-    sender: 'Một người quý mến bạn'
+    recipient: 'Công chúa của anh',
+    message: "Chúc công chúa của anh 20/10 thật vui vẻ và hạnh phúc nhé. <3\n\nAnh ước gì hôm nay có thể ở bên em, ôm em một cái thật lâu, tặng em một bó hoa và tự mình nói những lời yêu thương này thay vì chỉ gửi qua màn hình. Anh biết yêu xa đôi khi sẽ khiến chúng mình nhớ nhau, tủi thân vì không thể ở cạnh nhau những lúc cần, nhưng anh mong em luôn cảm nhận được rằng mình vẫn được yêu thương thật nhiều.\n\nCảm ơn công chúa vì đã xuất hiện trong cuộc đời anh. Anh mong em luôn vui vẻ, bình an, ăn uống đầy đủ và đừng buồn một mình nhé. Nếu có mệt mỏi hay chuyện gì không vui, hãy nhớ rằng em vẫn có anh để chia sẻ và dựa vào.\n\nAnh không mong gì nhiều, chỉ mong chúng mình đủ yêu thương và kiên nhẫn để cùng nhau đi qua những ngày xa cách, để một ngày nào đó anh có thể ở bên em trong những dịp đặc biệt như thế này, chứ không còn phải gửi lời chúc qua màn hình nữa.\n\nChúc em luôn hạnh phúc, không chỉ hôm nay mà cả những ngày sau này. Anh thương em nhiều lắm, mong sớm được gặp em, ôm em thật lâu và bù đắp cho em những ngày mình phải xa nhau. ❤️",
+    sender: 'Cà ri gà của em'
   };
   const dialog = document.getElementById('greetingCard');
   const openButton = document.getElementById('openCard');
