@@ -1,4 +1,4 @@
-# Một bó hoa dành tặng bạn · 20/10
+# Một bó hoa dành tặng cậu · 20/10
 
 Trang tặng hoa, album ảnh người nhận và thiệp chúc mừng ngày Phụ nữ Việt Nam 20/10, dùng HTML, CSS và JavaScript thuần. Hoạt động offline, không cần cài thư viện hoặc build.
 
